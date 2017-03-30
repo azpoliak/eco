@@ -2,7 +2,7 @@ Files:
 -----
 
 1. `word2vec.py`: Original word2vec. Use this for baseline embeddings
-1. `eco.py`: Use this to create `ECO` embeddings. Look at the file for instructions on how to run it.
+1. `eco.py`: Use this to create `ECO`'s `Skip-Embeddings` embeddings. Look at the file for instructions on how to run it.
 
 The README below is from Debora Sujono's code that we extended.
 
