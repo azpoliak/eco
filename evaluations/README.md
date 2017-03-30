@@ -1,3 +1,4 @@
+This contains the scripts and data used for our evaluations.
 
 Directories
 --------

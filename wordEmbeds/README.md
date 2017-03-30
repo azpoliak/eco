@@ -4,6 +4,9 @@ Files:
 1. `word2vec.py`: Original word2vec. Use this for baseline embeddings
 1. `eco.py`: Use this to create `ECO` embeddings. Look at the file for instructions on how to run it.
 
+The README below is from Debora Sujono's code that we extended.
+
+
 ---
 
 A Python implementation of the Continuous Bag of Words (CBOW) and skip-gram neural network architectures, and the hierarchical softmax and negative sampling learning algorithms for efficient learning of word vectors (Mikolov, et al., 2013a, b, c; http://code.google.com/p/word2vec/).
