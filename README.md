@@ -16,3 +16,16 @@ Directories:
 ⋅⋅3. The embeddings used in the paper and released were created using the python version. 
 
 
+Citation:
+---
+If you use our changes to the code or our skip-embeddings, please cite us:
+
+@inproceedings{Poliak:2017EACL,
+Title = {Efficient, Compositional, Order-sensitive n-gram Embeddings},
+ Author = {Poliak, Adam and Rastogi, Pushpendre and Martin, M. Patrick and Van Durme, Benjamin},
+ booktitle = {Proceedings of the 15th Conference of the European Chapter of the 
+ Association for Computational Linguistics},
+ Year = {2017},
+ Publisher = {Association for Computational Linguistics},
+ location = {Valencia, Spain}
+}
