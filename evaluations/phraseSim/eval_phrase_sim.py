@@ -1,20 +1,12 @@
-#"/export/projects/apoliak/ppdb-1.0-s-phrasal_1K"
 import math
 import argparse
 import numpy as np
-import pdb
 from sets import Set
 from sklearn import manifold
 #import pylab as plt
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import pandas as pd
-try:
-    import seaborn as sns
-    sns.set(color_codes=True)
-except ImportError:
-    pass
 
 cocoonEmbeds = {}
 rightEmbeds = {}
@@ -160,7 +152,6 @@ def embed_cocoon(phrase, dim=_dim_, window=_window_, dim_div=_dim_div_):
 
 
 def evaluate(dim, window, ppdb_file, dim_div):
-    pdb.set_trace()
     f = open(ppdb_file, "rb")
     baseline_c_lex = 0
     cocoon_c_lex = 0
