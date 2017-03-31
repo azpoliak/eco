@@ -1,7 +1,7 @@
 # Efficient, Compositional, Order-Sensitive n-gram Embeddings
 
 
-A suite for creating & evaluating phrasal embeddings via the `ECO` model based on [Efficient, Compositional, Order-Sensitive n-gram Embeddings](https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf)
+A suite for creating & evaluating phrasal embeddings via the `ECO` model based on [Efficient, Compositional, Order-Sensitive n-gram Embeddings](https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf) (EACL 2017)
 
 
 
