@@ -1,12 +1,11 @@
-Efficient, Compositional, Order-Sensitive n-gram Embeddings
----
+# Efficient, Compositional, Order-Sensitive n-gram Embeddings
+
 
 A suite for creating & evaluating phrasal embeddings via the `ECO` model based on [Efficient, Compositional, Order-Sensitive n-gram Embeddings](https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf)
 
 
 
-Directories:
------------
+### Directories:
 1. `data`: location of the data used to create and evaluate the ECO embeddings
 ⋅⋅1. The Skip-Embeddings can be downloaded from ...  
 2. `evaluations`: data and scripts for different evaluation tasks to evaluate the embeddings.
@@ -16,8 +15,8 @@ Directories:
 ⋅⋅3. The embeddings used in the paper and released were created using the python version. 
 
 
-Citation:
----
+### Citation:
+
 If you use our changes to the code or our skip-embeddings, please cite us:
 
 @inproceedings{Poliak:2017EACL,
@@ -30,6 +29,6 @@ Title = {Efficient, Compositional, Order-sensitive n-gram Embeddings},
  location = {Valencia, Spain}
 }
 
- Errata:
- --
+ ### Errata:
+ 
  There is a typo in equations (6) and (7) in the EACL proceedings. The version found at https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf has the correct equations.
