@@ -7,7 +7,7 @@ A suite for creating & evaluating phrasal embeddings via the `ECO` model based o
 
 ### Directories:
 1. `data`: location of the data used to create and evaluate the ECO embeddings
-⋅⋅1. The Skip-Embeddings can be downloaded from ...  
+⋅⋅1. The Skip-Embeddings and English Wikipedia used to generate the skip-embeddings can be downloaded [here](https://zenodo.org/record/439387#.WOERYxIrKRs).  
 2. `evaluations`: data and scripts for different evaluation tasks to evaluate the embeddings.
 1. `skipEmbeds`: the script used to generate the `ECO Skip-Embeddings` and vanilla `word2vec` embeddings.
 ⋅⋅1. We extended Debora Sujono's [python version of word2vec](https://github.com/deborausujono/word2vecpy).
