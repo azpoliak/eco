@@ -1,14 +1,13 @@
 # Efficient, Compositional, Order-Sensitive n-gram Embeddings
 
 
-A suite for creating & evaluating phrasal embeddings via the `ECO` model based on [Efficient, Compositional, Order-Sensitive n-gram Embeddings](https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf) (EACL 2017). Our released skip-embeddings embeddings can be downloaded from [here](https://zenodo.org/record/439387#.WOERYxIrKRs).
+A suite for creating & evaluating phrasal embeddings via the `ECO` model based on [Efficient, Compositional, Order-Sensitive n-gram Embeddings](https://www.cs.jhu.edu/~apoliak1/papers/ECO--EACL-2017.pdf) (EACL 2017).
 
-
+### Data:
+The Skip-Embeddings and English Wikipedia used to generate the skip-embeddings can be downloaded [here](https://zenodo.org/record/439387#.WOERYxIrKRs). 
 
 ### Directories:
-1. `data`: location of the data used to create and evaluate the ECO embeddings
-⋅⋅1. The Skip-Embeddings and English Wikipedia used to generate the skip-embeddings can be downloaded [here](https://zenodo.org/record/439387#.WOERYxIrKRs).  
-2. `evaluations`: data and scripts for different evaluation tasks to evaluate the embeddings.
+1. `evaluations`: data and scripts for different evaluation tasks to evaluate the embeddings.
 1. `skipEmbeds`: the script used to generate the `ECO Skip-Embeddings` and vanilla `word2vec` embeddings.
 ⋅⋅1. We extended Debora Sujono's [python version of word2vec](https://github.com/deborausujono/word2vecpy).
 ⋅⋅2. We also have a local C version that is not tested.
