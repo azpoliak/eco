@@ -18,6 +18,7 @@ The Skip-Embeddings and English Wikipedia used to generate the skip-embeddings c
 
 If you use our changes to the code or our skip-embeddings, please cite us:
 
+```
 @inproceedings{Poliak:2017EACL,
 Title = {Efficient, Compositional, Order-sensitive n-gram Embeddings},
  Author = {Poliak, Adam and Rastogi, Pushpendre and Martin, M. Patrick and Van Durme, Benjamin},
@@ -27,6 +28,7 @@ Title = {Efficient, Compositional, Order-sensitive n-gram Embeddings},
  Publisher = {Association for Computational Linguistics},
  location = {Valencia, Spain}
 }
+```
 
  ### Errata:
  
